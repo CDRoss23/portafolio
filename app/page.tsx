@@ -15,7 +15,7 @@ export default function Home() {
       <Skills />
       <Contact />
     </div><div className="py-6 text-center text-code-slate">
-        <p>&copy; 2025 Antonio Cabrera Dev. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Rossman Cabrera Dev.</p>
       </div></>
   );
 }

@@ -8,9 +8,9 @@ const Info: React.FC = () => {
             Acerca de mi
         </h1>
         <div className="flex flex-row space-x-4 justify-center items-center w-1/2">
-            <img src="favicon.ico" alt="PERFIL" />
-            <p className="text-justify text-xs">
-                Soy un desarrollador móvil con más de 5 años de experiencia en el desarrollo de aplicaciones móviles nativas para Android e iOS.
+            <img src="linkedln.jpeg" alt="Rossman Cabrera" className="rounded-full w-72" />
+            <p className="text-justify text-2xl">
+                Hola, soy Desarrollador muntiplataforma, enfocado en páginas web funcionales y aplicaciones moviles.
             </p>
         </div>
     </div>

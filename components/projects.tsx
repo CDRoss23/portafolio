@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const Projects: React.FC = () => {
     const projects = [
-        { title: "ATSAS", description: "Description for project 1", img: "atsas.png", URL: "https://atsas.net/"},
-        { title: "Auditech", description: "Description for project 2", img: "auditech.png", URL: "https://auditechnicaragua.net/"},
-        { title: "El Binario", description: "Description for project 2", img: "ElBinario.png", URL: "https://tubular-tanuki-f2166d.netlify.app/"},
+        { title: "ATSAS", description: "Description for project 1", img: "/atsas.png", URL: "https://atsas.net/"},
+        { title: "Auditech", description: "Description for project 2", img: "/auditech.png", URL: "https://auditechnicaragua.net/"},
+        { title: "El Binario", description: "Description for project 2", img: "/ElBinario.png", URL: "https://tubular-tanuki-f2166d.netlify.app/"},
     ];
 
     return(

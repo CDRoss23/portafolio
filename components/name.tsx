@@ -11,7 +11,7 @@ const Name: React.FC = () => {
       Desarrollador Multiplataforma
     </h2>
     <div className="" id='container'>
-  <button className="button">Contactame</button>
+  <button className="button"> <a href="mailto:rossmancd23@gmail.com">Contactame</a></button>
     </div>
   </div>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Projects: React.FC = () => {
     const projects = [
@@ -14,15 +15,14 @@ const Projects: React.FC = () => {
         </h1>
         <div className="flex flex-row space-x-4 justify-center items-center w-1/2">
             {projects.map((project, index) => (
-                <div key={index} className="border p-4 rounded-lg shadow-lg">
-                <img src={project.img} alt={`${project}`} width={400} height={200} className="mb-4 rounded"
-                />
-                <h3 className="text-xl font-semibold mb-2">Proyecto {project.title}</h3>
-                <p className="text-code-slate mb-4">{project.description}</p>
-                <a href={project.URL} className="text-code-green hover:underline">
-                    Ver más
-                </a>
-            </div>
+                <div key={index} className="flex flex-col items-center">
+                    <Image src={project.img} alt={project.title} width={400} height={200} className="mb-4 rounded" />
+                    <h3 className="text-xl font-semibold mb-2">Proyecto {project.title}</h3>
+                    <p className="text-code-slate mb-4">{project.description}</p>
+                    <a href={project.URL} className="text-code-green hover:underline">
+                        Ver más
+                    </a>
+                </div>
             ))}
         </div>
     </div>

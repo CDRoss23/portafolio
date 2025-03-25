@@ -10,8 +10,13 @@ const Name: React.FC = () => {
     <h2 className="text-2xl py-24">
       Desarrollador Multiplataforma
     </h2>
-    <div className="" id='container'>
-  <button className="button"> <a href="mailto:rossmancd23@gmail.com">Contactame</a></button>
+    <div className="flex justify-evenly">
+      <div className="mx-12" id='container'>
+      <button className="button"> <a href="mailto:rossmancd23@gmail.com">Contáctame</a></button>
+      </div>
+      <div className="mx-12" id='container'>
+      <button className="button"> <a href="#proyectos">Ver Proyectos</a></button>
+      </div>
     </div>
   </div>
 
